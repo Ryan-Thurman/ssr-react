@@ -1,0 +1,17 @@
+.DS_Store
+.DS_Store?
+*/.DS_Store
+node_modules/
+
+public/
+
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
