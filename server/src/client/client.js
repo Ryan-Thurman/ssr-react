@@ -1,3 +1,6 @@
 // Start for the client side app
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Home from './components/Home'
 
-console.log("hey")
+ReactDOM.hydrate(<Home />, document.querySelector('#root'))
