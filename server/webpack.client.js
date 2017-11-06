@@ -2,7 +2,7 @@ const path = require('path')
 const merge = require('webpack-merge')
 const baseconfig = require('./webpack.base.js')
 
-module.exports = {
+const clientConfig = {
     // Give webpack the root file
     entry: './src/client/client.js',
     // Tell webpack where to place the bundle file
